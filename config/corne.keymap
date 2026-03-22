@@ -41,7 +41,7 @@
     };
 
     keymap {
-        compatible = "zmk,keymap";eeEeEeeeiiimémlu
+        compatible = "zmk,keymap";
 
         default_layer {
             // -----------------------------------------------------------------------------------------
@@ -53,7 +53,7 @@
             display-name = "Base";
             bindings = <
 &kp ESC  &kp Q            &kp W            &kp F                &kp P              &kp B            &kp J      &kp L               &kp U                 &kp Y             &kp SEMI          &kp BSPC
-&kp TAB  &HML LEFT_WIN A  &HML LEFT_ALT R  &HML LEFT_CONTROL S  &HML LEFT_SHIFT T  &kp G            &kp M      &HMR N RIGHT_SHIFT  &HMR RIGHT_CONTROL E  &HMR RIGHT_ALT I  &HMR RIGHT_WIN O  &kp ENTER
+&none    &HML LEFT_WIN A  &HML LEFT_ALT R  &HML LEFT_CONTROL S  &HML LEFT_SHIFT T  &kp G            &kp M      &HMR N RIGHT_SHIFT  &HMR RIGHT_CONTROL E  &HMR RIGHT_ALT I  &HMR RIGHT_WIN O  &kp ENTER
 &none    &kp Z            &kp X            &kp C                &kp D              &kp V            &kp K      &kp H               &kp COMMA             &kp DOT           &kp FSLH          &kp SINGLE_QUOTE
                                            &mo 1                &mo 2              &kp BACKSPACE    &kp SPACE  &mo 3               &kp DELETE
             >;
